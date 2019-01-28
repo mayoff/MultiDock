@@ -18,14 +18,14 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <box horizontalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="5M2-IU-O2o">
-                    <rect key="frame" x="4" y="12" width="5" height="242"/>
+                    <rect key="frame" x="4" y="33" width="5" height="200"/>
                     <constraints>
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="3" id="wZT-bz-Abn"/>
                     </constraints>
                 </box>
             </subviews>
             <constraints>
-                <constraint firstItem="5M2-IU-O2o" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="12" id="6sR-9X-cHr"/>
+                <constraint firstItem="5M2-IU-O2o" firstAttribute="height" secondItem="Hz6-mo-xeY" secondAttribute="height" multiplier="0.75" id="9Ws-0A-BrQ"/>
                 <constraint firstItem="5M2-IU-O2o" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="6" id="R7a-um-8Tx"/>
                 <constraint firstItem="5M2-IU-O2o" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="UbT-n2-sCN"/>
                 <constraint firstItem="5M2-IU-O2o" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="uaP-p6-ePe"/>
